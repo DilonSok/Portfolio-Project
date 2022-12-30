@@ -1,0 +1,21 @@
+.projects-container{
+  background-color: lightsalmon;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.projects-grid{
+  display:grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap:  35px;
+}
+
+.project-preview{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

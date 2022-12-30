@@ -1,0 +1,36 @@
+.navbar{
+  display:flex;
+  justify-content: space-between;
+}
+.navbar-container{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  background-color: lightblue;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: space-evenly;
+  position:fixed;
+  z-index: 100;
+}
+.home-link{
+  padding: 20px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.right-section{
+  display:flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 250px;
+  margin:20px;
+}
+
+.button-link{
+  margin-right: 20px;
+}
+
+
+

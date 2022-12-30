@@ -1,9 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio Project</title>
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles-folder/header.css">
+    <link rel="stylesheet" href="styles-folder/general.css">
+    <link rel="stylesheet" href="styles-folder/about.css">
+    <link rel="stylesheet" href="styles-folder/projects.css">
+    <link rel="stylesheet" href="styles-folder/contact.css">
+
+    
   </head>
   <body>
-    
+    <!--Navigation Bar-->
+    <nav class="navbar">
+      <div class="navbar-container">
+          <a class="home-link" href="/index.html">Dilon Sok</a>
+        <div class="right-section">
+          <ul class="user-links">
+            <li class="button-link"><a>About</a></li>
+            <li class="button-link"><a>Projects</a></li>
+            <li class="button-link"><a>Contact</a></li>
+            <li class="button-link"><a>Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--About Section-->
+    <section class="about-section">
+      <div class="about-container">
+        <h1>
+          About
+        </h1>
+        <div class="p-layout">
+          <p>
+            Hi, I am Dilon Sok! I am a current Computer Science major at the University of Texas at Dallas. I am currently interested in Front-End development particularly Web Development, but I also am eager to step into the AI and Machine Learning realm!
+          </p>
+          <p>
+            My goal is to eventually create accessible, fluid, and visually innovative programs that I can incorporate AI to aid programmers from beginners to experts in their coding endeavors.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Projects Section-->
+    <section class="project-section">
+      <div class="projects-container">
+        <h2>Projects</h2>
+        <!--Project Grid-->
+        <div class="projects-grid">
+          <div class="project-preview">
+            <h3>Youtube Homepage UI</h3>
+            <img class="project-image" src="images/youtube-project.png">
+          </div>
+          <div class="project-preview">
+            <h3>Youtube Homepage UI</h3>
+            <img class="project-image" src="images/youtube-project.png">
+          </div>
+        </div>
+      </div>      
+    </section>
+    <section class="contact-section">
+      <div class="contact-container">
+        <h4>
+          About
+        </h4>
+        <p>
+          Feel free to email me for whatever you may want to as I am currently seeking a Junior Front-End/Web Development software. However, any other queries or questions I am always open to responding!
+        </p>
+        <button class="email-button">
+          <a href="mailto:sokdilon@gmail.com">sokdilon@gmail.com</a>
+        </button>
+      </div>
+    </section>
   </body>
   </html>
