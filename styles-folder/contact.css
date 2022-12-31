@@ -1,13 +1,17 @@
 .contact-container{
-  background-color: rgb(152, 235, 177);
   display: flex;
   align-items:center;
   flex-direction: column;
-  padding: 30px;
+  padding: 30px 0px 150px 0px;
 }
 
+.contact-info-container{
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+}
 .email-button{
-  background-color: rgb(93, 199, 93);
+  background-color: rgba(112, 196, 196, 0.822);
   border-radius: 5px;
   border: none;
   height: 40px;

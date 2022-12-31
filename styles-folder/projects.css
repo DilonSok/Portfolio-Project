@@ -1,21 +1,67 @@
 .projects-container{
-  background-color: lightsalmon;
+  background-color: darkslategray;
   display: flex;
   align-items:center;
   flex-direction: column;
-  padding-bottom: 100px;
 }
 .projects-grid{
   display:grid;
   justify-content: center;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 16px;
-  row-gap:  35px;
+  grid-template-rows: 1fr;
+  column-gap: 40px;
+  row-gap:  80px;
 }
 
 .project-preview{
+  width: 820px;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.project-info{
+  margin-left: 40px;
+  display: block;
+}
+.project-image{
+  height: 250px;
+}
+.project-title{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.project-stack{
+  padding: 0;
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.project-stack li{
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.project-icon-buttons{
+  padding: 0;
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.github-icon{
+  margin-right: 20px;
+  height: 22px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.project-link-icon{
+  height: 22px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }

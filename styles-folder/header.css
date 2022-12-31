@@ -1,12 +1,15 @@
 .navbar{
   display:flex;
   justify-content: space-between;
+  text-align: center;
+  color: white;
+
 }
 .navbar-container{
   width: 100%;
   list-style: none;
   display: flex;
-  background-color: lightblue;
+  background-color: rgb(34, 58, 58);
   flex-direction: row;
   height: 80px;
   align-items: center;
@@ -28,9 +31,24 @@
   margin:20px;
 }
 
-.button-link{
+.button-link {
   margin-right: 20px;
+  transition: color 0.15s;
+}
+.button-link .header-button:hover{
+  cursor: pointer;
+  color: rgba(132, 216, 216, 0.712);
 }
 
+.section-heading{
+  padding: 40px 0px 10px 0px;
+}
+
+.user-links{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
 
