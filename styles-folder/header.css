@@ -1,9 +1,8 @@
 .navbar{
   display:flex;
-  justify-content: space-between;
   text-align: center;
   color: white;
-
+  margin-top: -7px;
 }
 .navbar-container{
   width: 100%;
@@ -27,8 +26,6 @@
   display:flex;
   justify-content: space-between;
   flex-shrink: 0;
-  width: 250px;
-  margin:20px;
 }
 
 .button-link {

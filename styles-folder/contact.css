@@ -8,7 +8,7 @@
 .contact-info-container{
   justify-content: center;
   text-align: center;
-  width: 600px;
+  max-width: 600px;
 }
 .email-button{
   background-color: rgba(112, 196, 196, 0.822);
