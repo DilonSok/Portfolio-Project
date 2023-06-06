@@ -4,6 +4,7 @@
   align-items:center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 150px;
 }
 .projects-grid{
   display:grid;
@@ -84,7 +85,10 @@
 }
 
 @media (max-width: 640px){
+  .project-info{
+    margin: 0;
+  }
   .project-image{
-    height: 200px;
+    height: 220px;
   }
 }
