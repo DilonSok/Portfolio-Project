@@ -1,23 +1,27 @@
 .navbar{
+  width:100%;
   display:flex;
-  text-align: center;
-  color: white;
   margin-top: -7px;
 }
-.navbar-container{
+.navbar-container {
   width: 100%;
+  height: 80px;
   list-style: none;
   display: flex;
   background-color: #0a192f;
   flex-direction: row;
-  height: 80px;
   align-items: center;
-  justify-content: space-evenly;
-  position:fixed;
+  justify-content: space-between;
+  position: fixed;
+  padding-right: 50px;
   z-index: 100;
 }
+
+
+.home-button{
+  padding-left: 10px;
+}
 .home-link{
-  padding: 20px;
   font-size: 24px;
   text-decoration: none;
 }
@@ -39,11 +43,21 @@
 
 
 .user-links{
-  padding: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+
+@media (min-width: 650px ){
+  .navbar-container {
+    padding-left: 50px;
+  }
+  .navbar-container .spacer {
+    flex-grow: 1;
+    padding-right: 80px; /* Adjust the value as desired */
+  }
+  
 }
 
 

@@ -82,6 +82,7 @@
     align-items: center;
     flex-direction: column;
   }
+
 }
 
 @media (max-width: 640px){
@@ -90,5 +91,11 @@
   }
   .project-image{
     height: 220px;
+  }
+}
+
+@media(max-width: 475px){
+  .project-image{
+    height: 175px;
   }
 }

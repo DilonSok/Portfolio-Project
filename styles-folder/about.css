@@ -45,8 +45,8 @@
 .current-tech{
   text-align: center;
 }
-
-.the-stack{
+.stack-title{
+  margin: 15px 0 0 0;
   align-content: center;
 }
 
@@ -75,5 +75,20 @@
   .picture-container{
     display:flex;
     justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 450px){
+  p{
+    font-size: 15px;
+  }
+  .profile-pic{
+    height: 160px;
+  }
+  .current-tech{
+    margin: 8px;
+  }
+  .p-text-container{
+    padding: 0 25px 0 25px;
   }
 }
