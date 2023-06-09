@@ -49,6 +49,17 @@
   flex-direction: row;
 }
 
+
+.mobile-menu-button{
+  border: none;
+  cursor: pointer;
+}
+.menu-button-pic{
+  height:25px;
+  background: none;
+}
+
+
 @media (min-width: 650px ){
   .navbar-container {
     padding-left: 50px;
@@ -58,6 +69,25 @@
     padding-right: 80px; /* Adjust the value as desired */
   }
   
+  .mobile-nav-menu{
+    display: none;
+  }
+
 }
+
+@media (max-width: 649px){
+  .right-section{
+    display:none;
+  }
+  .mobile-nav-menu{
+    display:flex;
+    cursor: pointer;
+  }
+
+  .mobile-menu-links{
+    display: none;
+  }
+}
+
 
 
