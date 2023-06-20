@@ -9,7 +9,8 @@
 }
 
 .projects-container > .section-heading{
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 .projects-grid{
   display:grid;

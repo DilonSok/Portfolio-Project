@@ -1,7 +1,7 @@
-function toggleMobileMenu(){
-    const navbarMenu = document.getElementById("mobile-menu-links");
-    navbarMenu.style.display = navbarMenu.style.display === "flex" ? "none" : "flex";
-}
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".mobile-menu-links");
 
-const navbarButton = document.getElementById("menu-button");
-navbarButton.addEventListener("click", toggleMobileMenu);
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});

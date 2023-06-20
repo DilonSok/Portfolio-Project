@@ -6,6 +6,8 @@
 }
 
 .contact-info-container{
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
   max-width: 450px;
   justify-content: center;
   text-align: center;

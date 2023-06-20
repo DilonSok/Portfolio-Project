@@ -1,4 +1,4 @@
-
+/* { border: 1px solid orange; }*/
 
 body{
   line-height: 27px;
@@ -18,8 +18,10 @@ a,a:visited{
 ul{
   padding:0;
   margin: 0;
+  list-style-type: none;
 }
 
 button {
   background: none;
 }
+
