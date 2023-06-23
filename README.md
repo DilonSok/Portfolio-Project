@@ -20,3 +20,15 @@ Upcoming ideas:
 - ***About Section*** needs hover animations and potentially blocks for elevated look
 - ***Project Section*** needs hover animations for images, icon links, and p blocks for elevated look
 - ***Contact Section*** needs hover animations
+
+6/23/2023 Log
+---
+Completed Base Portfolio
+- ***All Sections*** Sections completed with implementation for mobile working as well
+- ***JavaScript*** JavaScript functionality added for scrolling and mobile menu button
+
+Upcoming ideas:
+- ***Project Section*** create additional website to display/deploy coding projects on that aren't web-based
+- ***All Sections*** Add more CSS features to improve and stylize the site better
+- ***Sidebar Section*** Add a sidebar on the left to include links to socials such as linkedIn, github, etc
+- ***Work History*** Add a section to include work history with jobs that is a scrollable window
