@@ -31,3 +31,4 @@ Upcoming ideas:
 - ***Project Section*** create additional website to display/deploy coding projects on that aren't web-based
 - ***All Sections*** Add more CSS features to improve and stylize the site better
 - ***Sidebar Section*** Add a sidebar on the left to include links to socials such as linkedIn, github, etc
+- ***Work History*** Add a section to include work history with jobs that is a scrollable window
